@@ -36,4 +36,3 @@ endpointProps.setAccessType(EndpointProperties.ACCESSTYPE_EXCLUSIVE);
 // Actually provision it, and do not fail if it already exists
 session.provision(queue, endpointProps, JCSMPSession.FLAG_IGNORE_ALREADY_EXISTS);
 ~~~
-
