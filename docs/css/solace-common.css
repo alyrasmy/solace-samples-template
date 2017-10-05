@@ -136,6 +136,7 @@ article h2 {
     color: rgba(0, 0, 0, 1);
     font-size: 28px;
     margin: 40px 0 16px 0;
+    padding-top:12px;
     border-top:solid 2px #c9c9c9;
 }
 
@@ -365,7 +366,7 @@ tr:first-child th, tr:first-child td{
 ul li { margin-bottom: 6px; }
 ul, ol {margin-bottom: 20px;    }
 ul {margin-left: 30px;}
-ol {list-style: decimal; }
+ol {list-style: decimal; padding-left: 1em;}
 ul ul, ul ol,
 ol ol, ol ul {margin: 4px 0 5px 30px; }
 ul ul li, ul ol li,
