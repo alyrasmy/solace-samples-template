@@ -7,9 +7,8 @@ icon: tutorial-1-icon.png
 
 You would describe your tutorial in markdown like these. See other samples for full examples.
 
-Here is an example image:
+Here is an example image
 
-![Sample Image Text]({{ site.baseurl }}/images/tutorial-1-icon.png)
 
 ## A Section
 
