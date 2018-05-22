@@ -8,7 +8,7 @@ repository: https://github.com/SolaceSamples/solace-samples-template
 
 # Links
 hostname: cloud.solace.com
-dev-hostname: cloud.solace.com
+dev-hostname: dev.solace.com
 docs-vmr-setup: //docs.solace.com/Solace-VMR-Set-Up/Setting-Up-VMRs.htm
 solace-apis-dev:
   - value: //dev.solace.com/get-started/c-tutorials/
