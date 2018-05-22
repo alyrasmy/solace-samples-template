@@ -4,7 +4,7 @@
 body {
     min-width: 400px;
     background: #f0f4f8;
-    font-family: sans-serif;
+    font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -123,6 +123,7 @@ img {
 article {
     background: white;
     border: 1px solid #CCC;
+    border-top: none;
     padding: 30px;
     color: rgba(0, 0, 0, 0.8);
     min-width: 400px;
