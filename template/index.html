@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /
 ---
 <section class="index">
     {% if jekyll.environment == 'solaceCloud' %}
@@ -14,7 +15,7 @@ layout: default
                 {% for section in site.data.tutorials %}
                     {% for item in section.tutorials %}
                         {% assign item_url = item | prepend:"/" | append:"/" %}
-                        {% assign p = site.tutorials | where:"url", item_url | first %}
+                        {% assign p = site.docs | where:"url", item_url | first %}
                         {% assign loopindex = forloop.index | modulo: 2 %}
                         <div class="col s12 m6 l4">
                             <div class="card">

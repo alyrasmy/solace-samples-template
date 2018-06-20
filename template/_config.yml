@@ -1,10 +1,8 @@
-# Site settings
-title: Solace Samples Template
-summary: These tutorials get you up to speed sending and receiving messages with Solace technology.
-baseurl: "/solace-samples-template" # the subpath of your site, e.g. /solace-samples-java
-repository: https://github.com/SolaceSamples/solace-samples-template
-
 # Also see _includes/intro.html to customize the description which gets included in index.html.
+includes_dir: ./template/_includes
+layouts_dir: ./template/_layouts
+data_dir: ./_docs
+include: ["template/index.html"]
 
 # Links
 hostname: cloud.solace.com
@@ -90,6 +88,6 @@ google_analytics: UA-3921398-7
 markdown: kramdown
 
 collections:
-  tutorials:
+  docs:
     output: true
     permalink: /:path/

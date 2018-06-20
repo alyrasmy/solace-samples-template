@@ -7,10 +7,10 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   {% if jekyll.environment == 'solaceCloud' %}
-    <link rel="icon" href="{{ "/images/common/solace-cloud-icon.png " | prepend: site.baseurl }}" type="image/x-icon">
+    <link rel="icon" href="{{ "/template/images/solace-cloud-icon.png " | prepend: site.baseurl }}" type="image/x-icon">
     {% include solace-cloud-dependency.html %}
   {% else %}
-    <link rel="icon" href="{{ "/images/common/favicon.ico " | prepend: site.baseurl }}" type="image/x-icon">
+    <link rel="icon" href="{{ "/template/images/favicon.ico " | prepend: site.baseurl }}" type="image/x-icon">
     {% include dev-solace-dependency.html %}
   {% endif %}
 

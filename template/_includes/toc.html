@@ -46,21 +46,21 @@
 </div>
 <div class="github">
     <div>
-        <img class="grey-image" src="{{ "/images/common/hosted-in-github.png" | prepend: site.baseurl }}" alt="hosted-in-github"
+        <img class="grey-image" src="{{ "/template/images/hosted-in-github.png" | prepend: site.baseurl }}" alt="hosted-in-github"
             width="150" height="57"></img>
     </div>
     {% for item in page.links %}
     <div class="github-link">
-        <img class="fork-icon" src="{{ "/images/common/github-icon.png" | prepend: site.baseurl }}"/>
+        <img class="fork-icon" src="{{ "/template/images/github-icon.png" | prepend: site.baseurl }}"/>
         <a href="{{ site.repository }}{{ item.link }}" target="_blank">{{ item.label }}</a> <br />
     </div>
     {% endfor %}
     <div class="github-link">
-        <img src="{{ "/images/common/pencil-icon.png" | prepend: site.baseurl }}"/>
+        <img src="{{ "/template/images/pencil-icon.png" | prepend: site.baseurl }}"/>
         <a href="{{ site.repository }}/blob/master/docs/{{ page.path }}" target="_blank">Improve this page</a>
     </div>
     <div class="github-link">
-        <img src="{{ "/images/common/issue-icon.png" | prepend: site.baseurl }}"/>
+        <img src="{{ "/template/images/issue-icon.png" | prepend: site.baseurl }}"/>
         <a href="{{ site.repository }}/issues/new" target="_blank">Raise an issue</a>
     </div>
 </div>
