@@ -18,7 +18,7 @@ Some bullets:
 *   Bullet 2 with nesting:
     *   Nest 1
 
-<!-- {% include_relative _includes/tutorial.md %} -->
+{% include_relative assets/include1.md %}
 
 ## Another section
 
