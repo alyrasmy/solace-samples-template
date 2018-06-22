@@ -18,6 +18,8 @@ Some bullets:
 *   Bullet 2 with nesting:
     *   Nest 1
 
+{% include_relative assets/include1.md %}
+
 ## Another section
 
 With a sample code snippet for creating a `Queue`.
